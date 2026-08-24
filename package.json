@@ -2,7 +2,7 @@
   "name": "@hanzywaifu/assets",
   "version": "1.0.0",
   "description": "Assets for Dongtube API - fonts, images, and templates",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
