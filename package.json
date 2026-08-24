@@ -6,7 +6,8 @@
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
-    "data"
+    "data",
+    "index.js"
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc"
