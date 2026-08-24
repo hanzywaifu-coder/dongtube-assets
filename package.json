@@ -1,0 +1,37 @@
+{
+  "name": "@hanzywaifu/assets",
+  "version": "1.0.0",
+  "description": "Assets for Dongtube API - fonts, images, and templates",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  },
+  "keywords": [
+    "dongtube",
+    "assets",
+    "fonts",
+    "images",
+    "canvas",
+    "assets"
+  ],
+  "author": "hanzywaifu-coder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzywaifu-coder/dongtube-assets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanzywaifu-coder/dongtube-assets/issues"
+  },
+  "homepage": "https://github.com/hanzywaifu-coder/dongtube-assets#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  }
+}
