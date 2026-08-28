@@ -1,13 +1,13 @@
 {
   "name": "@hanzywaifu/assets",
-  "version": "1.0.0",
-  "description": "Assets for Dongtube API - fonts, images, and templates",
+  "version": "1.1.0",
+  "description": "Assets for Dongtube API - fonts, images, canvas wrapper",
   "main": "./index.js",
-  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "data",
-    "index.js"
+    "index.js",
+    "canvas.js"
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc"
@@ -17,8 +17,7 @@
     "assets",
     "fonts",
     "images",
-    "canvas",
-    "assets"
+    "canvas"
   ],
   "author": "hanzywaifu-coder",
   "license": "MIT",
@@ -26,10 +25,10 @@
     "type": "git",
     "url": "git+https://github.com/hanzywaifu-coder/dongtube-assets.git"
   },
-  "bugs": {
-    "url": "https://github.com/hanzywaifu-coder/dongtube-assets/issues"
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "skia-canvas": "^3.0.8"
   },
-  "homepage": "https://github.com/hanzywaifu-coder/dongtube-assets#readme",
   "devDependencies": {
     "@types/node": "^16.10.2",
     "rimraf": "^3.0.2",
